@@ -2,4 +2,5 @@
 This is for Des Live Streaming Team - Akash, Dharinish, Nihaal
 
 
-Live Website - https://nihaalknight87.github.io/DES-LIVE-STREAMING/index.html
+Live Website - https://nihaalknight87.github.io/DES-LIVE-STREAMING/website/index.html
+Old Website - https://nihaalknight87.github.io/DES-LIVE-STREAMING/index.html
