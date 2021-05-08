@@ -1,20 +1,27 @@
 <html>
 <head>
-  <link rel="stylesheet" href="CSS/theme.css">
+  <link rel="stylesheet" href="styles/theme.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@500&display=swap" rel="stylesheet">
   <script type="text/javascript" src="myscript.js"></script>
   <script src="https://kit.fontawesome.com/a7b3a25225.js" crossorigin="anonymous"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
   <nav id="nav-bar">
-    <i class="fas fa-bars"></i>
-    <h2 id="logo">Logo</h2>
+    <div id="nav-left">
+    <i id="hamburger" class="fas fa-bars"></i>
+    <div id="logo">Logo</div>
+    </div>
     <div id="nav-center">
       <input type="text" id="search">
       <i class="fas fa-search" id="search-icon"></i>
     </div>
-    <a class="nav-item"> Login </a>
-    <a class="nav-item"> SignUp </a>
+    <div id="nav-right">
+      <div id="sign-in">Sign In</div>
+      <i id="dots" class="fas fa-ellipsis-v"></i>
+    </div>
   </nav>
+
 </body>
 </html>
