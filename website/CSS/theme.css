@@ -11,67 +11,116 @@ body{
 #nav-bar{
   position: fixed;
   width: 100%;
-  height: 60px;
+  height: 11vh;
   display: flex;
   justify-content: space-between;
   align-items:  center;
   background-color: white;
 }
+
 #nav-left{
   display: flex;
-  justify-content:space-evenly;
-  margin: .9rem;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #hamburger{
   font-size: 2rem;
-  margin-top: 3px;
+  margin: .9rem;
+  cursor: pointer;
 }
 
 #logo{
-  margin-left: 40px;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
 }
 
 #nav-center{
   display: inline-flex;
   position: relative;
+  align-items:center;
   border: 1px solid #ccc;
   border-radius: 50px;
   overflow: hidden;
   height: 5vh;
-  width: 53vw;
+  width: 23vw;
+  background-color: #E5E6E5;
 }
 #search{
   border: none;
-  width: 50vw;
-  padding-left: 5px;
+  width: 20vw;
+  padding-left: 0.313rem;
+  font-size: 1.5rem;
+  background-color: #E5E6E5;
+
 }
 
 #search-icon{
-  padding: .1rem;
   font-size: 1.5rem;
-  margin-top: 2px;
+  cursor: pointer;
 }
 
 #nav-right{
   display: flex;
-  justify-content: space-evenly;
-  margin: 1.5rem;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #sign-in{
-  margin-right: 40px;
   font-family: 'Merriweather Sans', sans-serif;
   font-size: 1.2rem;
+  border: solid 2px black;
+  margin: .9rem;
+  padding: .5rem;
+  cursor: pointer;
 }
 
 #dots{
   font-size: 1.3rem;
-  margin-top: 3px;
+  margin-right: 2rem;
+  cursor: pointer;
 }
 
+@media only screen and (min-device-width: 320px) and (max-device-height: 896px){
+  #nav-bar{
+    height: 5vh;
+  }
+  #hamburger{
+    font-size: 1rem;
+    margin: .9rem;
+    cursor: pointer;
+  }
+  #logo{
+    font-size: .5rem;
+    text-transform: uppercase;
+  }
+  #nav-center{
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    overflow: hidden;
+    height: 2vh;
+    width: 21vw;
+    background-color: #E5E6E5;
+  }
+  #search{
+    border: none;
+    width: 17vw;
+    padding-left: 0.313rem;
+    font-size: .5rem;
+    background-color: #E5E6E5;
+  }
+  #search-icon{
+    font-size: .5rem;
+    cursor: pointer;
+  }
+  #sign-in{
+    border: solid 1px black;
+    font-size: .5rem;
+    padding: .2rem;
+  }
 
-@media (max-width:480px){
-
+  #dots{
+    margin-right: .5rem;
+    font-size: .5rem;
+  }
 }
