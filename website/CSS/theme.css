@@ -41,7 +41,6 @@ body{
   border: 1px solid #ccc;
   border-radius: 50px;
   overflow: hidden;
-  height: 5vh;
   width: 23vw;
   background-color: #E5E6E5;
 }
@@ -51,7 +50,10 @@ body{
   padding-left: 0.313rem;
   font-size: 1.5rem;
   background-color: #E5E6E5;
+}
 
+#search:focus{
+  outline: none;
 }
 
 #search-icon{
@@ -243,5 +245,74 @@ footer{
   #dots{
     margin-right: .5rem;
     font-size: .5rem;
+  }
+  #main-area{
+    padding-top: 1rem;
+    grid-template-columns: 0.1fr 2.5fr 1fr;
+  }
+  #icon-area{
+    top: 5%;
+    height: 65vh;
+  }
+  .icons2{
+    padding: 0.7rem;
+    font-size: 0.7rem;
+  }
+  #video{
+    width: 100%;
+    height: 40vh;
+  }
+  #channel-title{
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  #channel-info{
+    padding:0.5rem;
+    width: 30vw;
+  }
+  #channel-info p {
+    font-size: 0.5rem;
+  }
+  #channel-logo{
+    background-color: blue;
+    width: 10vw;
+    height: 6vh;
+    border: solid 1px black;
+    border-radius: 50%;
+  }
+  #description{
+    padding:0.5rem;
+    font-size: 0.5rem;
+    width: 100%;
+  }
+  #chat-section{
+    top: 5%;
+    grid-template-rows: 0.3fr 3fr 0.2fr;
+    height: 65vh;
+  }
+  #chat-title p {
+    margin-top: 1rem;
+    color:white;
+    font-size: 0.5rem;
+  }
+  #chat-box{
+    display:flex;
+    background-color: white;
+    width: 100%;
+    height: 1vh;
+  }
+
+  #txt-box{
+    width: 90%;
+    height: inherit;
+    font-size: 1rem;
+    border: solid 1px gray;
+  }
+
+  #sub-button{
+    cursor: pointer;
+    border: solid 1px black;
+    padding: 0.3rem;
+    font-size: 0.5rem;
   }
 }
